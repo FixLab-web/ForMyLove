@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anai</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========================================
+         LOGIN
+    ========================================= -->
+
+    <main class="login-container" id="login-screen">
+
+        <section class="login-box">
+
+            <h1>Acceso</h1>
+
+            <p>Ingrese sus credenciales para continuar.</p>
+
+            <form id="login-form">
+
+                <div class="input-group">
+                    <label for="usuario">Usuario</label>
+
+                    <input
+                        type="text"
+                        id="usuario"
+                        name="usuario"
+                        autocomplete="off"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Contraseña</label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        required
+                    >
+                </div>
+
+                <button type="submit">
+                    Iniciar sesión
+                </button>
+
+            </form>
+
+            <p id="error-message"></p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         TRANSICIÓN
+    ========================================= -->
+
+    <main class="transition-screen" id="transition-screen">
+
+        <div class="transition-content">
+
+            <p id="loading-text">
+                Verificando credenciales...
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <!-- ========================================
+         INTRODUCCIÓN
+    ========================================= -->
+
+    <main class="love-screen" id="love-screen">
+
+        <div class="love-content">
+
+            <!-- Emblema -->
+            <div class="anai-emblem">
+                <div class="emblem-inner">A</div>
+            </div>
+
+            <p class="small-title">
+                Para mi persona favorita
+            </p>
+
+            <h1>
+                Mi querida Anai
+            </h1>
+
+            <div class="ornament">
+                ✦
+            </div>
+
+            <p class="intro">
+                Tengo algo que decirte...
+            </p>
+
+            <button id="continue-button">
+                Continuar
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- ========================================
+         CARTA
+    ========================================= -->
+
+    <main class="letter-screen" id="letter-screen">
+
+        <!-- Ambiente -->
+        <div class="ambient-light"></div>
+        <div class="ambient-particles"></div>
+
+        <div class="letter-container">
+
+            <!-- Emblema -->
+            <div class="anai-emblem letter-emblem">
+                <div class="emblem-inner">A</div>
+            </div>
+
+
+            <div class="letter-header">
+                <span>✦</span>
+                <span>Una disculpa para ti</span>
+                <span>✦</span>
+            </div>
+
+
+            <!-- SECCIÓN 1 -->
+
+            <section class="letter-section active">
+
+                <p>
+                    Amor, siento mucho lo de ayer.
+                </p>
+
+                <p>
+                    No era mi intención, ni la de mi amigo,
+                    hacerte sentir mal. Lo que él dijo solamente
+                    fue un comentario al azar, sin ningún
+                    significado en concreto.
+                </p>
+
+            </section>
+
+
+            <!-- SECCIÓN 2 -->
+
+            <section class="letter-section">
+
+                <p>
+                    El poco tiempo que llevamos juntos, de verdad
+                    lo he apreciado muchísimo.
+                </p>
+
+                <p>
+                    Me sacaste de este cuarto de mierda, al menos
+                    los domingos, va jajaja, aunque también un
+                    ratito los demás días.
+                </p>
+
+                <p>
+                    El punto es que me enseñaste que no todo
+                    estaba perdido; que tal vez la vida no sea
+                    tan oscura y solitaria después de todo.
+                </p>
+
+            </section>
+
+
+            <!-- SECCIÓN 3 -->
+
+            <section class="letter-section">
+
+                <p>
+                    “Vivir” jajaja.
+                </p>
+
+                <p>
+                    Es una palabra que odiaba hace algunos meses.
+                    Ahora es lo que más quiero, pero quiero vivirlo
+                    contigo.
+                </p>
+
+            </section>
+
+
+            <!-- SECCIÓN 4 -->
+
+            <section class="letter-section">
+
+                <p>
+                    La vida me puso la solución al odio que tenía
+                    por ella justo al frente, y el que, con su
+                    pesimismo, la ignoraba era yo.
+                </p>
+
+                <p>
+                    Ahora veo que no todo está perdido, y no pienso
+                    echar a la basura esto que tenemos por nada
+                    ni por nadie.
+                </p>
+
+                <p>
+                    Aunque si tu pa me machetea, ahí sí ya no se va
+                    jajaja.
+                </p>
+
+            </section>
+
+
+            <!-- SECCIÓN 5 -->
+
+            <section class="letter-section">
+
+                <p>
+                    No sé si es demasiado esto o si estoy dando
+                    pena ajena, va jajajaja, pero...
+                </p>
+
+                <p class="love-words">
+                    Te amo.
+                </p>
+
+                <p>
+                    Te amo tanto que siento que esas dos palabras
+                    juntas se quedan cortas para expresar lo que
+                    siento por ti.
+                </p>
+
+            </section>
+
+
+            <!-- SECCIÓN 6 -->
+
+            <section class="letter-section">
+
+                <p>
+                    Quisiera que, de alguna manera, supieras cuánto
+                    te valoro; que supieras que me siento seguro
+                    contigo; que supieras que contigo puedo ser
+                    yo mismo.
+                </p>
+
+                <p>
+                    Y que, de alguna manera...
+                </p>
+
+                <p class="highlight">
+                    quisiera compartir toda una vida a tu lado.
+                </p>
+
+            </section>
+
+
+            <!-- FINAL -->
+
+            <section class="letter-section final-section">
+
+                <div class="final-symbol">
+                    ♡
+                </div>
+
+                <p class="postscript">
+                    Postdata:
+                </p>
+
+                <p>
+                    Me sentí mal por hacerte sentir mal.
+                </p>
+
+                <p class="final-love">
+                    Te amo, Anai.
+                </p>
+
+            </section>
+
+
+            <button id="next-letter">
+                Continuar
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
