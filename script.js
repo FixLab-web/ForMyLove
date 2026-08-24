@@ -27,7 +27,7 @@ let changingSection = false;
 // ========================================
 
 const usuarioCorrecto = "Anai";
-const contrasenaCorrecta = "Campo";
+const contrasenaCorrecta = "campo";
 
 
 // ========================================
